@@ -2,7 +2,7 @@ import { GithubUser } from './GithubUser.js'
 
 export class Favorites {
   constructor(root) {
-    this.root = document.querySelector(":root")
+    this.root = document.querySelector(root)
     this.load()
   }
 
