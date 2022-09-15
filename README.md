@@ -17,5 +17,5 @@ Uma aplicação simples que consome a API do Github e salva os perfis pesquisado
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://i.imgur.com/uDsB9Dx.png)
 
