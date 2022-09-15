@@ -2,16 +2,16 @@ import { GithubUser } from './GithubUser.js'
 
 export class Favorites {
   constructor(root) {
-    this.root = document.querySelector(root)
+    this.root = document.querySelector(":root")
     this.load()
   }
 
   load() {
-    this.entries = JSON.parse(localStorage.getItem('@github-favorites:')) || []
+    this.entries = JSON.parse(localStorage.getItem('@githubFavorites:')) || []
   }
 
   save() {
-    localStorage.setItem('@github-favorites:', JSON.stringify(this.entries))
+    localStorage.setItem('@githubFavorites:', JSON.stringify(this.entries))
   }
 
   async add(username) {
